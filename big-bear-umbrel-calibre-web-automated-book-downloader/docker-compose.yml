@@ -10,6 +10,7 @@ services:
       CLOUDFLARE_PROXY_URL: http://cloudflarebypassforscraping:8000
       INGEST_DIR: /cwa-book-ingest
       BOOK_LANGUAGE: en
+      AA_DONATOR_KEY: C6atMVkLcQKGezSTEjW1ba9fNYcp7
     ports:
       - 8084:8084
     # Uncomment the following lines if you want to enable healthcheck
