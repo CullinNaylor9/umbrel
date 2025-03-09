@@ -1,21 +1,22 @@
 manifestVersion: 1
-id: big-bear-umbrel-adguard-home
-name: Adguard Home
+id: cullin-umbrel-repo-calibre-web-automated-book-downloader
+name: Calibre Downloader
 category: Networking
 version: "0.0.3"
-tagline: Network-wide ads & trackers blocking DNS server
-icon: https://github.com/walkxcode/dashboard-icons/blob/main/png/adguard-home.png?raw=true
+tagline: An intuitive web interface for searching and requesting book downloads
+icon: https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/static/media/logo.png
 description: >
-  AdGuard Home is a network-wide software for blocking ads and tracking. After you set it up, it'll cover all your home devices, and you won't need any client-side software for that.
-  Learn more on our official Github repository.
-developer: AdGuard Team
+ An intuitive web interface for searching and requesting book downloads, designed to work seamlessly with Calibre-Web-Automated. This project streamlines the process of downloading books and preparing them for integration into your Calibre library.
+developer: calibrain
 website: https://adguard.com/en/adguard-home/overview.html
 dependencies: []
 repo: https://github.com/AdguardTeam/AdguardHome
 support: https://github.com/AdguardTeam/AdguardHome/issues
-port: 7200
+port: 8084
 gallery:
-  - https://i.imgur.com/gtLjT0L.png
+  - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/search.png
+  - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/details.png
+  - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/downloading.png
 path: ""
 defaultPassword: ""
 releaseNotes: >
