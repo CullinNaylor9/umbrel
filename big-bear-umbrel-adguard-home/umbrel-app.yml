@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: cullin-umbrel-repo-calibre-web-automated-book-downloader
+id: big-bear-umbrel-calibre-web-automated-book-downloader
 name: Calibre Downloader
 category: Networking
 version: "0.0.3"
