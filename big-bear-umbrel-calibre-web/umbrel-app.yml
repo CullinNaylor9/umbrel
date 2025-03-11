@@ -22,9 +22,9 @@ repo: https://github.com/janeczku/calibre-web
 support: https://github.com/linuxserver/docker-calibre-web/issues
 port: 8083
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/CWA-Homepage.png
+  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/cwa-enforcer-diagram.png
+  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/cwa-bulk-editting-diagram.png
 path: ""
 defaultUsername: "admin"
 defaultPassword: "admin123"
