@@ -2,7 +2,7 @@ manifestVersion: 1
 id: big-bear-umbrel-calibre-web-automated-book-downloader
 name: Calibre Downloader
 category: Networking
-version: "0.0.3"
+version: "0.0.4"
 tagline: An intuitive web interface for searching and requesting book downloads
 icon: https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/static/media/logo.png
 description: >
