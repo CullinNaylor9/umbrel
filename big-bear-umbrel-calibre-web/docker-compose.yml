@@ -1,1 +1,19 @@
+version: "3.7"
 
+services:
+  app_proxy:
+    environment:
+      APP_HOST: calibre-web_server_1
+      APP_PORT: 8083
+
+  server:
+    image: linuxserver/calibre-web:0.6.24@sha256:71cf33758891aa4fcd9dace41bbbc1aaf8faeedf78fff9f1a12f46cfc9156b97
+    stop_grace_period: 1m
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+      - ${APP_DATA_DIR}/data/books:/books
+      - /data/umbrel-os/home/umbrel/umbrel/app-data/big-bear-umbrel-calibre-web-automated-book-downloader/data/ebooks:/ebooks
+    restart: on-failure
