@@ -1,7 +1,7 @@
 manifestVersion: 1
-id: big-bear-umbrel-calibre-web
+id: big-bear-umbrel-calibre-web-automated
 category: files
-name: Calibre Web
+name: Calibre Web Automated
 version: "0.6.25"
 tagline: A clean web app for your eBooks
 icon: https://getumbrel.github.io/umbrel-apps-gallery/calibre-web/icon.svg
