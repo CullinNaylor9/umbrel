@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: big-bear-umbrel-audiobookbay-downloader
+id: big-bear-umbrel-audiobookbay
 name: Audiobook Bay Downloader
 category: Networking
 version: "0.0.4"
