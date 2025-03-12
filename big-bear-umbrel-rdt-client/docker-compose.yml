@@ -9,8 +9,8 @@ services:
       - PGID=1000
       - TZ=Europe/London
     volumes:
-      - <path to data>:/data/db
-      - <path to downloads>:/data/downloads
+      - ${APP_DATA_DIR}/data/db:/data/db
+      - ${APP_DATA_DIR}/data/downloads
     logging:
        driver: json-file
        options:
