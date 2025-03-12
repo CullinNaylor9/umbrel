@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: big-bear-umbrel-audiobookbay-automated
-name: Audiobook bay Downloader
+name: Audiobook Bay Downloader
 category: Networking
 version: "0.0.4"
 tagline: An intuitive web interface for searching and requesting audiobook downloads
