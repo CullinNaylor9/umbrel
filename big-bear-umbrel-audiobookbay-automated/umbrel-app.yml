@@ -19,7 +19,7 @@ website: https://github.com/crocodilestick/Calibre-Web-Automated
 dependencies: []
 repo: https://github.com/crocodilestick/Calibre-Web-Automated
 support: https://github.com/crocodilestick/Calibre-Web-Automated/issues
-port: 8083
+port: 5078
 gallery:
   - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/CWA-Homepage.png
   - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/cwa-enforcer-diagram.png
