@@ -12,7 +12,7 @@ website: https://adguard.com/en/adguard-home/overview.html
 dependencies: []
 repo: https://github.com/AdguardTeam/AdguardHome
 support: https://github.com/AdguardTeam/AdguardHome/issues
-port: 5078
+port: 6500
 gallery:
   - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/search.png
   - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/details.png
