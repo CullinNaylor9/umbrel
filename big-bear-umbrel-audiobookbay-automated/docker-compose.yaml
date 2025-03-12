@@ -14,4 +14,4 @@ services:
       - DL_USERNAME=admin
       - DL_PASSWORD=adminadmin
       - DL_CATEGORY=abb-downloader
-      - SAVE_PATH_BASE=${APP_DATA_DIR}/data/audiobooks
+      - SAVE_PATH_BASE=${APP_DATA_DIR}/
