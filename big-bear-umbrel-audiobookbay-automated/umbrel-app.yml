@@ -1,47 +1,77 @@
 manifestVersion: 1
 id: big-bear-umbrel-audiobookbay-automated
-category: files
-name: ABB Downloader
-version: "0.6.24"
-tagline: A clean web app for your eBooks
-icon: https://getumbrel.github.io/umbrel-apps-gallery/calibre-web/icon.svg
-description: >-
-  Calibre, while a fantastic tool for its age, has several problems when containerised, including its reliance on a KasmVNC server instance for the UI, which is near   
-  impossible to use on mobile and is relatively resource-heavy if you're running a small, lower power server like I am.
-  
-   For many, Calibre-Web has really swooped in to save the day, offering an alternative to a containerised Calibre instance that's resource-light and with a much more modern UI       
-   to boot.
-  
-    However, when compared to full-fat Calibre, it unfortunately lacks a few core features leading many to run both services in parallel,
-    each serving to fill in where the other lacks, resulting in an often clunky, imperfect solution.
-developer: crocodilestick
-website: https://github.com/crocodilestick/Calibre-Web-Automated
-dependencies: []
-repo: https://github.com/crocodilestick/Calibre-Web-Automated
-support: https://github.com/crocodilestick/Calibre-Web-Automated/issues
+name: Audiobookbay Downloader
+tagline: Audiobook and podcast server
+category: media
+version: "2.19.5"
 port: 5078
+description: >-
+  Features:
+
+
+  - Fully open-source, including the android & iOS app (in beta)
+
+  - Stream all audio formats on the fly
+
+  - Search and add podcasts to download episodes w/ auto-download
+
+  - Multi-user support w/ custom permissions
+
+  - Keeps progress per user and syncs across devices
+
+  - Auto-detects library updates, no need to re-scan
+
+  - Upload books and podcasts w/ bulk upload drag and drop folders
+
+  - Backup your metadata + automated daily backups
+
+  - Progressive Web App (PWA)
+  
+  - Chromecast support on the web app and android app
+
+  - Fetch metadata and cover art from several sources
+
+  - Chapter editor and chapter lookup (using Audnexus API)
+
+  - Merge your audio files into a single m4b
+
+  - Embed metadata and cover image into your audio files (using Tone)
+
+  - Basic ebook support and e-reader (experimental)
+
+
+  Android App (beta)
+
+  - Try it out on the Google Play Store
+  
+  
+  iOS App (early beta)
+
+  - Available using Test Flight: https://testflight.apple.com/join/wiic7QIW
+developer: advplyr
+website: https://audiobookshelf.org
+repo: https://github.com/advplyr/audiobookshelf
+support: https://discord.gg/pJsjuNCKRq
 gallery:
-  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/CWA-Homepage.png
-  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/cwa-enforcer-diagram.png
-  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/cwa-bulk-editting-diagram.png
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+dependencies: []
 path: ""
-defaultUsername: "admin"
-defaultPassword: "admin123"
-torOnly: false
+defaultUsername: ""
+defaultPassword: ""
 releaseNotes: >-
-  This update includes several new features and improvements:
 
-    - Added metadata extraction for audio files during upload
-    - Updated PDF viewer with improved functionality
-    - New upload interface with progress tracking and drag & drop support
-    - Improved shelf sorting capabilities
-    - Better contrast for epub reader in dark modes
-    - Enhanced support for multiple e-reader email addresses
-    - Improved whitespace handling and string formatting
-    - Various improvements to the Kobo sync and browser experience
-    - Multiple bug fixes for database handling and metadata operations
-    - Enhanced support for Windows installations
+  Fixed:
+    - Resolved an issue where library items were not being cached correctly
+    - Fixed podcast author name display in player
+    - Resolved an issue where non-admin users could delete and update libraries
 
-  Full release notes can be found here: https://github.com/janeczku/calibre-web/releases
-submitter: Cullin9
-submission: https://github.com/getumbrel/umbrel-apps/pull/74
+  Changed:
+    - Improved logic for ignoring files during library scanning
+    - Improved library page redirect after removing items
+    - Updated translations for Belarusian, Croatian, Czech, German, Italian, Polish, Swedish, and Ukrainian
+
+  Full release notes can be found at https://github.com/advplyr/audiobookshelf/releases
+submitter: Jasper
+submission: https://github.com/getumbrel/umbrel-apps/pull/302
