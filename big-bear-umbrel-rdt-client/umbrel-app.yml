@@ -2,7 +2,7 @@ manifestVersion: 1
 id: big-bear-umbrel-rdt-client
 name: Real Debrid Client
 category: Networking
-version: "0.0.4"
+version: "0.0.5"
 tagline: An intuitive web interface for searching and requesting audiobook downloads
 icon: https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/static/media/logo.png
 description: >
