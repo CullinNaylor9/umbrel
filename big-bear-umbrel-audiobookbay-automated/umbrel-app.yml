@@ -1,39 +1,47 @@
 manifestVersion: 1
 id: big-bear-umbrel-audiobookbay-automated
-name: Audiobook Bay Downloader
-category: Networking
-version: "0.0.4"
-tagline: An intuitive web interface for searching and requesting audiobook downloads
-icon: https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/static/media/logo.png
-description: >
- AudiobookBay Automated is a lightweight web application designed to simplify audiobook management. It allows users to search AudioBook Bay for audiobooks and send magnet links directly to a designated Deludge, qBittorrent or Transmission client.
-developer: calibrain
-website: https://adguard.com/en/adguard-home/overview.html
+category: files
+name: ABB Downloader
+version: "0.6.24"
+tagline: A clean web app for your eBooks
+icon: https://getumbrel.github.io/umbrel-apps-gallery/calibre-web/icon.svg
+description: >-
+  Calibre, while a fantastic tool for its age, has several problems when containerised, including its reliance on a KasmVNC server instance for the UI, which is near   
+  impossible to use on mobile and is relatively resource-heavy if you're running a small, lower power server like I am.
+  
+   For many, Calibre-Web has really swooped in to save the day, offering an alternative to a containerised Calibre instance that's resource-light and with a much more modern UI       
+   to boot.
+  
+    However, when compared to full-fat Calibre, it unfortunately lacks a few core features leading many to run both services in parallel,
+    each serving to fill in where the other lacks, resulting in an often clunky, imperfect solution.
+developer: crocodilestick
+website: https://github.com/crocodilestick/Calibre-Web-Automated
 dependencies: []
-repo: https://github.com/AdguardTeam/AdguardHome
-support: https://github.com/AdguardTeam/AdguardHome/issues
-port: 8084
+repo: https://github.com/crocodilestick/Calibre-Web-Automated
+support: https://github.com/crocodilestick/Calibre-Web-Automated/issues
+port: 8083
 gallery:
-  - https://private-user-images.githubusercontent.com/33638980/402756890-8a30fd4e-a289-49d0-83ab-67a3bcfc9745.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE3OTQyMTYsIm5iZiI6MTc0MTc5MzkxNiwicGF0aCI6Ii8zMzYzODk4MC80MDI3NTY4OTAtOGEzMGZkNGUtYTI4OS00OWQwLTgzYWItNjdhM2JjZmM5NzQ1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEyVDE1MzgzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgzNmQxN2UwNTMxY2QyZGVkZTYxZjYxNzJkNmYwMjVjYTAyYzMyNWVjODhjMTBmMGZiN2U3OTIwOTkxNzExYmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.E9Hd_nE-9RvXf19ooLzywGdactr8HKdRjWgFzMLCWNA
-  - https://private-user-images.githubusercontent.com/33638980/402756958-19cc74de-51fc-422f-9cab-fe69e30c74b9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE3OTQyMTYsIm5iZiI6MTc0MTc5MzkxNiwicGF0aCI6Ii8zMzYzODk4MC80MDI3NTY5NTgtMTljYzc0ZGUtNTFmYy00MjJmLTljYWItZmU2OWUzMGM3NGI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEyVDE1MzgzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk4MzQzZjQzM2VhMzc5M2EwZDdjMGFiZDgyNDZhMWViOTIzZjVhOGRiMzVhOTQ2ZGUxOTg2ZDMyY2U0ODYzYjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.3BONaDVlskX26aoevZX8zN9k0iSdf6uj9PsWbdHUEPc
+  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/CWA-Homepage.png
+  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/cwa-enforcer-diagram.png
+  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/cwa-bulk-editting-diagram.png
 path: ""
-defaultPassword: ""
-releaseNotes: >
-  In the previous release, we optimized the filtering-rule list updates, achieving up to three times speedup in some cases. However, the new algorithm proved to be too strict, so in this release we have relaxed its validations while maintaining the optimization for more typical filtering-rule lists 🏎️.
+defaultUsername: "admin"
+defaultPassword: "admin123"
+torOnly: false
+releaseNotes: >-
+  This update includes several new features and improvements:
 
-  As always, there are other minor bug fixes in this release as well.
+    - Added metadata extraction for audio files during upload
+    - Updated PDF viewer with improved functionality
+    - New upload interface with progress tracking and drag & drop support
+    - Improved shelf sorting capabilities
+    - Better contrast for epub reader in dark modes
+    - Enhanced support for multiple e-reader email addresses
+    - Improved whitespace handling and string formatting
+    - Various improvements to the Kobo sync and browser experience
+    - Multiple bug fixes for database handling and metadata operations
+    - Enhanced support for Windows installations
 
-  Full changelog
-  See also the v0.107.35 GitHub milestone.
-
-  Changed
-  Improved reliability filtering-rule list updates on Unix systems.
-  Fixed
-  Occasional client information lookup failures that could lead to the DNS server getting stuck (#6006).
-
-  bufio.Scanner: token too long and other errors when trying to add filtering-rule lists with lines over 1024 bytes long or containing cosmetic rules (#6003).
-
-  Removed
-  Default exposure of the non-standard ports 784 and 8853 for DNS-over-QUIC in the Dockerfile.
-submitter: BigBearTechWorld
-submission:
+  Full release notes can be found here: https://github.com/janeczku/calibre-web/releases
+submitter: Cullin9
+submission: https://github.com/getumbrel/umbrel-apps/pull/74
