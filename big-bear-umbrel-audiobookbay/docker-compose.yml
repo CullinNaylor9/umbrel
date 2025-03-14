@@ -14,5 +14,5 @@ services:
       - DL_USERNAME=admin
       - DL_PASSWORD=pat6676
       - DL_CATEGORY=abb-downloader
-      - ABB_HOSTNAME='theaudiobookbay.se'
+      - ABB_HOSTNAME=theaudiobookbay.se
       - SAVE_PATH_BASE=${APP_DATA_DIR}/data/audiobooks
