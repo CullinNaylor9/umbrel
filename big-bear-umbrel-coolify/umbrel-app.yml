@@ -1,0 +1,48 @@
+manifestVersion: 1
+id: big-bear-umbrel-coolify
+name: Coolify
+category: Networking
+version: "0.0.5"
+tagline: Coolify is an open-source & self-hostable alternative to Vercel
+icon: https://avatars.githubusercontent.com/u/60715044?s=200&v=4
+description: >
+ Coolify is an open-source & self-hostable alternative to Heroku / Netlify / Vercel / etc.
+
+ It helps you manage your servers, applications, and databases on your own hardware; you only need an SSH connection. You can manage VPS, Bare Metal, Raspberry PIs, and anything else.
+
+ Imagine having the ease of a cloud but with your own servers. That is Coolify.
+
+ No vendor lock-in, which means that all the configurations for your applications/databases/etc are saved to your server. So, if you decide to stop using Coolify (oh nooo), you could still manage your running resources. You lose the automations and all the magic. 🪄️
+
+ For more information, take a look at our landing page at coolify.io.
+developer: coollabs
+website: https://adguard.com/en/adguard-home/overview.html
+dependencies: []
+repo: https://coolify.io
+support: https://coolify.io
+port: 8000
+gallery:
+  - https://mattstein.com/_astro/coolify.Cxr1JjoC_Z27YpGM.webp
+  - https://mattstein.com/_astro/coolify-register.4mEDQMCr_KT4Ru.webp
+  - https://mattstein.com/_astro/coolify-new-resource.BS2_rF6z_Z1e2Sdv.webp
+path: ""
+defaultPassword: ""
+releaseNotes: >
+  In the previous release, we optimized the filtering-rule list updates, achieving up to three times speedup in some cases. However, the new algorithm proved to be too strict, so in this release we have relaxed its validations while maintaining the optimization for more typical filtering-rule lists 🏎️.
+
+  As always, there are other minor bug fixes in this release as well.
+
+  Full changelog
+  See also the v0.107.35 GitHub milestone.
+
+  Changed
+  Improved reliability filtering-rule list updates on Unix systems.
+  Fixed
+  Occasional client information lookup failures that could lead to the DNS server getting stuck (#6006).
+
+  bufio.Scanner: token too long and other errors when trying to add filtering-rule lists with lines over 1024 bytes long or containing cosmetic rules (#6003).
+
+  Removed
+  Default exposure of the non-standard ports 784 and 8853 for DNS-over-QUIC in the Dockerfile.
+submitter: BigBearTechWorld
+submission:
