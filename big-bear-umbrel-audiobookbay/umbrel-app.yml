@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: big-bear-umbrel-audiobookbay
+name: Audiobook Bay Downloader
+category: Networking
+version: "0.0.5"
+tagline: An intuitive web interface for searching and requesting audiobook downloads
+icon: https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/static/media/logo.png
+description: >
+ An intuitive web interface for searching and requesting book downloads, designed to work seamlessly with Calibre-Web-Automated. This project streamlines the process of downloading books and preparing them for integration into your Calibre library.
+developer: calibrain
+website: https://adguard.com/en/adguard-home/overview.html
+dependencies: []
+repo: https://github.com/AdguardTeam/AdguardHome
+support: https://github.com/AdguardTeam/AdguardHome/issues
+port: 5078
+gallery:
+  - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/search.png
+  - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/details.png
+  - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/downloading.png
+path: ""
+defaultPassword: ""
+releaseNotes: >
+  In the previous release, we optimized the filtering-rule list updates, achieving up to three times speedup in some cases. However, the new algorithm proved to be too strict, so in this release we have relaxed its validations while maintaining the optimization for more typical filtering-rule lists 🏎️.
+
+  As always, there are other minor bug fixes in this release as well.
+
+  Full changelog
+  See also the v0.107.35 GitHub milestone.
+
+  Changed
+  Improved reliability filtering-rule list updates on Unix systems.
+  Fixed
+  Occasional client information lookup failures that could lead to the DNS server getting stuck (#6006).
+
+  bufio.Scanner: token too long and other errors when trying to add filtering-rule lists with lines over 1024 bytes long or containing cosmetic rules (#6003).
+
+  Removed
+  Default exposure of the non-standard ports 784 and 8853 for DNS-over-QUIC in the Dockerfile.
+submitter: BigBearTechWorld
+submission:
