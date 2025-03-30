@@ -11,7 +11,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/db:/data/db
       - ${APP_DATA_DIR}/data/downloads:/data/downloads
-      - ${APP_DATA_DIR}/data/watch:/data/watch
+      - /app/qBittorrent/downloads/watch
     logging:
        driver: json-file
        options:
