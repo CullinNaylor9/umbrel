@@ -13,5 +13,4 @@ services:
       - DL_PORT=6500
       - DL_USERNAME=admin
       - DL_PASSWORD=pat6676
-      - DL_CATEGORY=abb-downloader
       - SAVE_PATH_BASE=${APP_DATA_DIR}/data/audiobooks
