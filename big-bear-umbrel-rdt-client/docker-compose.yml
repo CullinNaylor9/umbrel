@@ -10,7 +10,7 @@ services:
       - TZ=Europe/London
     volumes:
       - ${APP_DATA_DIR}/data/db:/data/db
-      - ${APP_DATA_DIR}/data/downloads:/data/downloads
+      - /data/umbrel-os/home/umbrel/umbrel/data/storage/downloads/audiobooks:/data/downloads
       - /data/umbrel-os/home/umbrel/umbrel/app-data/qbittorrent/data/config/data/downloads:/data/watch
     logging:
        driver: json-file
