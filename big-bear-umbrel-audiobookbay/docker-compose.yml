@@ -10,7 +10,7 @@ services:
       - DOWNLOAD_CLIENT=qbittorrent
       - DL_SCHEME=http
       - DL_HOST=192.168.31.149
-      - DL_PORT=6500
+      - DL_PORT=8094
       - DL_USERNAME=admin
-      - DL_PASSWORD=pat6676
+      - DL_PASSWORD=adminadmin
       - SAVE_PATH_BASE=${APP_DATA_DIR}/data/audiobooks
