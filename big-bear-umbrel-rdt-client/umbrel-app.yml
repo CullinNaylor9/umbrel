@@ -3,15 +3,15 @@ id: big-bear-umbrel-rdt-client
 name: Real Debrid Client
 category: Networking
 version: "0.0.5"
-tagline: An intuitive web interface for searching and requesting audiobook downloads
-icon: https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/static/media/logo.png
+tagline: This is a web interface to manage your torrents on Real-Debrid, AllDebrid, Premiumize TorBox or DebridLink
+icon: https://images.sftcdn.net/images/t_app-icon-m/p/3f2bfc1a-de32-40c9-acff-921747dd8086/3043422050/real-debrid-icon.png
 description: >
- An intuitive web interface for searching and requesting book downloads, designed to work seamlessly with Calibre-Web-Automated. This project streamlines the process of downloading books and preparing them for integration into your Calibre library.
-developer: calibrain
-website: https://adguard.com/en/adguard-home/overview.html
+ This is a web interface to manage your torrents on Real-Debrid, AllDebrid, Premiumize TorBox or DebridLink
+developer: rogerfar
+website: https://github.com/rogerfar/rdt-client
 dependencies: []
-repo: https://github.com/AdguardTeam/AdguardHome
-support: https://github.com/AdguardTeam/AdguardHome/issues
+repo: https://github.com/rogerfar/rdt-client
+support: https://github.com/rogerfar/rdt-client/issues
 port: 6500
 gallery:
   - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/search.png
