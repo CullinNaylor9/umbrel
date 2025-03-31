@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: big-bear-umbrel-rdt-client
 name: Real Debrid Client
-category: Networking
+category: Developer
 version: "0.0.5"
 tagline: This is a web interface to manage your torrents on Real-Debrid, AllDebrid, Premiumize TorBox or DebridLink
 icon: https://images.sftcdn.net/images/t_app-icon-m/p/3f2bfc1a-de32-40c9-acff-921747dd8086/3043422050/real-debrid-icon.png
@@ -14,9 +14,8 @@ repo: https://github.com/rogerfar/rdt-client
 support: https://github.com/rogerfar/rdt-client/issues
 port: 6500
 gallery:
-  - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/search.png
-  - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/details.png
-  - https://github.com/calibrain/calibre-web-automated-book-downloader/raw/main/README_images/downloading.png
+  - https://elfhosted.com/assets/images/social/app/rdtclient.png
+  - https://docs.elfhosted.com/images/screenshots/rdtclient.png
 path: ""
 defaultPassword: ""
 releaseNotes: >
